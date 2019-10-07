@@ -1,0 +1,12 @@
+name: FortuneBlocks
+author: yarocks
+version: 1.0
+main: me.yarocks.fortuneblocks.FortuneBlocks
+commands:
+  fb:
+    description: All in one command for fortune blocks
+    permission: fb.reload
+permissions:
+  fb.reload:
+    description: reload the config file with a command
+    default: op
